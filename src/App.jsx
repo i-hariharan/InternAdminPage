@@ -6,7 +6,6 @@ import Mainpage from './pages/Mainpage';
 import StudentDetails from './pages/StudentDetails';
 import Profileattribute from './pages/Profileattribute';
 import Subscription from './pages/Subscription';
-import Piechart from "./pages/Piechart"
 import Navbar from './pages/Navbar';
 
 const App = () => {

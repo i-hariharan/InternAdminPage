@@ -21,7 +21,6 @@ const App = () => {
         <Route path='/StudentDetails' element={<StudentDetails />}/>
         <Route path='/Profileattribute' element={<Profileattribute />}/>
         <Route path='/Subscription' element={<Subscription />}/>
-        <Route path='/Piechart' element={<Piechart />}/>
       </Routes>
     </BrowserRouter>
   </div>  

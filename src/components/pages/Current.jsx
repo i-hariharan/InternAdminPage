@@ -1,5 +1,6 @@
-
+import StudentDetails from './StudentDetails';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { IoSearchOutline } from "react-icons/io5";
 
 const Current = () => {
@@ -99,7 +100,9 @@ const Current = () => {
                <td className="py-2 px-4">{user.name}</td>
                <td className="py-2 px-4">{user.email}</td>
                <td className="py-2 px-4">
-                 <button className="bg-green-500 text-white px-4 py-1 rounded mx-1">View</button>
+                 <Link to='/StudentDetails'> 
+                  <button className="bg-green-500 text-white px-4 py-1 rounded mx-1">View</button>
+                 </Link>
                  <button className="bg-red-500 text-white px-4 py-1 rounded mx-1">Delete</button>
                  <button className="bg-gray-500 text-white px-4 py-1 rounded mx-1">Block</button>
                </td>

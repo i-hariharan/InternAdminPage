@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../../public/profileimg.jpg"
+import img from "../../assets/images/profileimg.jpg"
 
 export default function Subscription() {
 

@@ -1,4 +1,4 @@
-import img from "../../public/profileimg.jpg";
+import img from "../../assets/images/profileimg.jpg";
 import React from "react";
 import { Link } from "react-router-dom";
 import { PieChart, Pie, Cell } from "recharts";

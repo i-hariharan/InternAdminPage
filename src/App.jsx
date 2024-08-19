@@ -1,12 +1,12 @@
 import React from 'react'
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import Current from './pages/Current';
-import Currentstudents from './pages/Currentstudents';
-import Mainpage from './pages/Mainpage';
-import StudentDetails from './pages/StudentDetails';
-import Profileattribute from './pages/Profileattribute';
-import Subscription from './pages/Subscription';
-import Navbar from './pages/Navbar';
+import Current from './components/pages/Current';
+import Currentstudents from './components/pages/Currentstudents';
+import Mainpage from './components/pages/Mainpage';
+import StudentDetails from './components/pages/StudentDetails';
+import Profileattribute from './components/pages/Profileattribute';
+import Subscription from './components/pages/Subscription';
+import Navbar from './components/pages/Navbar';
 
 const App = () => {
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import img from "../../public/profileimg.jpg";
+import img from "../../assets/images/profileimg.jpg";
 import { IoSearchOutline } from "react-icons/io5";  
 
 export default function Profileattribute() {

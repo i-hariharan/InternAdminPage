@@ -9,19 +9,36 @@ export default function Profileattribute() {
       id: 1,
       name: "Design pattern",
       date: "14 / 8 / 2024",
+      status: "completed",
       fileLink: "file.pdf",
     },
     {
       id: 2,
       name: "Design pattern",
       date: "14 / 8 / 2024",
+      status: "completed",
       fileLink: "file.pdf",
     },
     {
       id: 3,
       name: "Design pattern",
       date: "14 / 8 / 2024",
+      status: "completed",
       fileLink: "Not yet",
+    },
+    {
+      id: 4,
+      name: "Design pattern",
+      date: "14 / 8 / 2024",
+      status: "completed",
+      fileLink: "file.pdf",
+    },
+    {
+      id: 5,
+      name: "Design pattern",
+      date: "14 / 8 / 2024",
+      status: "completed",
+      fileLink: "file.pdf",
     },
   ];
 
@@ -149,6 +166,7 @@ export default function Profileattribute() {
                   <th className="py-2 px-4">Tasks ID</th>
                   <th className="py-2 px-4">Task name</th>
                   <th className="py-2 px-4">Completed Date</th>
+                  <th className="py-2 px-4">Status</th>
                   <th className="py-2 px-4">Drive link</th>
                 </tr>
               </thead>
@@ -164,6 +182,9 @@ export default function Profileattribute() {
                     </td>
                     <td className="py-2 px-16 text-justify text-center">
                       {tasks.date}
+                    </td>
+                    <td className="py-2 px-16 text-justify text-center ">
+                      {tasks.status}
                     </td>
                     <td className="py-2 px-16 text-justify text-center ">
                       {tasks.fileLink}
@@ -188,6 +209,7 @@ export default function Profileattribute() {
                   <th className="py-2 px-4">Tasks ID</th>
                   <th className="py-2 px-4">Task name</th>
                   <th className="py-2 px-4">Completed Date</th>
+                  <th className="py-2 px-4">Status</th>
                   <th className="py-2 px-4">Drive link</th>
                 </tr>
               </thead>
@@ -203,6 +225,9 @@ export default function Profileattribute() {
                     </td>
                     <td className="py-2 px-16 text-justify text-center">
                       {tasks.date}
+                    </td>
+                    <td className="py-2 px-16 text-justify text-center ">
+                      {tasks.status}
                     </td>
                     <td className="py-2 px-16 text-justify text-center ">
                       {tasks.fileLink}
@@ -227,6 +252,7 @@ export default function Profileattribute() {
                   <th className="py-2 px-4">Tasks ID</th>
                   <th className="py-2 px-4">Task name</th>
                   <th className="py-2 px-4">Completed Date</th>
+                  <th className="py-2 px-4">Status</th>
                   <th className="py-2 px-4">Drive link</th>
                 </tr>
               </thead>
@@ -242,6 +268,9 @@ export default function Profileattribute() {
                     </td>
                     <td className="py-2 px-16 text-justify text-center">
                       {tasks.date}
+                    </td>
+                    <td className="py-2 px-16 text-justify text-center ">
+                      {tasks.status}
                     </td>
                     <td className="py-2 px-16 text-justify text-center ">
                       {tasks.fileLink}

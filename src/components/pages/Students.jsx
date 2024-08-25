@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { IoSearchOutline } from "react-icons/io5";
 
-const Current = () => {
+const Students = () => {
   const users = [
     { id: 1, name: 'Ashok', email: 'ABCDEFG123@gmail.com' },
     { id: 2, name: 'Deepak kumar', email: 'thgfrg434@gmail.com' },
@@ -115,4 +115,4 @@ const Current = () => {
   );
 };
 
-export default Current;
+export default Students;

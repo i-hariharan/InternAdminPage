@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import {Link} from "react-router-dom"
 import { useNavigate } from "react-router-dom";
 import { IoSearchOutline } from "react-icons/io5";
 import Main from "./Training/Main";
@@ -60,7 +61,7 @@ export default function Mainpage() {
       </div>
 
       {/* Main Content */}
-      <div className="bg-[#FAF2BE] w-full h-full pl-5 pr-5 pt-5">
+      <div className="bg-[#FAF2BE] w-full h-full h-screen pl-5 pr-5 pt-5">
         <header className="flex justify-between items-center mb-8 bg-dark-blue w-full mx-auto rounded-lg lg:pl-5 lg:pr-5 lg:pt-5 lg:pb-5">
           <div className="flex space-x-4">
             <button
@@ -108,6 +109,19 @@ export default function Mainpage() {
 
         {/* Data Cards for Intern section*/}
         {isToggled && (
+        <div>
+
+          <div className="flex justify-between bg-dark-blue items-center w-full p-10 h-[50px] rounded-lg mx-auto">
+            <h2 className="flex justify-start text-xl font-TimesNewRoman text-white">
+              Students Subscription Details
+            </h2>
+            <Link to='/Payment'>
+              <button className="flex justify-end bg-light-yellow text-dark-blue transform hover:scale-105 rounded-lg p-3">
+                Visit
+              </button>
+            </Link>
+          </div>
+
           <div className="grid grid-cols-2 gap-10 justify-center items-center p-8 ml-10">
             {data.map((item) => (
               <div
@@ -125,6 +139,7 @@ export default function Mainpage() {
                 </span>
               </div>
             ))}
+            </div>
           </div>
         )}
 

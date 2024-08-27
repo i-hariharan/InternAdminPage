@@ -14,14 +14,15 @@ import StudentDetails from './components/pages/StudentDetails';
 import Profileattribute from './components/pages/Profileattribute';
 import Subscription from './components/pages/Subscription';
 import Navbar from './components/pages/Navbar';
+import Paymentdetails from './components/pages/Paymentdetails';
 
 //Training routes
 import Main from './components/pages/Training/Main';
 import PreviousPlan from './components/pages/Training/PreviousPlan'
 import CurrentPlan from './components/pages/Training/CurrentPlan';
 import Overallplan from './components/pages/Training/Overallplan';
-
 import Mentor from './components/pages/Training/Mentor';
+
 
 const App = () => {
 
@@ -43,6 +44,7 @@ const App = () => {
         <Route path='/StudentDetails' element={<StudentDetails />}/>
         <Route path='/Profileattribute' element={<Profileattribute />}/>
         <Route path='/Subscription' element={<Subscription />}/>
+        <Route path='/Payment' element={<Paymentdetails />}/>
 
         {/**Routes specific for Training section */}
         <Route path='/Training/Main' element={<Main />}/>

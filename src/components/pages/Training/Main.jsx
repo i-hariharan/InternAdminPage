@@ -18,7 +18,7 @@ export default function Main() {
   const navigate = useNavigate();
 
   return (
-    <div className=" w-full h-full mx-auto">
+    <div className="w-full h-fit mx-auto">
         {/* Data Cards */}
         <div className="grid grid-cols-2 gap-10 justify-center items-center p-8 ml-10">
           {data.map((item) => (

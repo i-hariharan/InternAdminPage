@@ -10,14 +10,14 @@ export default function Profileattribute() {
       name: "Design pattern",
       date: "14 / 8 / 2024",
       status: "completed",
-      fileLink: "file.pdf",
+      fileLink: "link",
     },
     {
       id: 2,
       name: "Design pattern",
       date: "14 / 8 / 2024",
       status: "completed",
-      fileLink: "file.pdf",
+      fileLink: "link",
     },
     {
       id: 3,
@@ -31,14 +31,90 @@ export default function Profileattribute() {
       name: "Design pattern",
       date: "14 / 8 / 2024",
       status: "completed",
-      fileLink: "file.pdf",
+      fileLink: "link",
     },
     {
       id: 5,
       name: "Design pattern",
       date: "14 / 8 / 2024",
       status: "completed",
-      fileLink: "file.pdf",
+      fileLink: "not yet",
+    },
+  ];
+
+  const assignment = [
+    {
+      id: 1,
+      name: "Design pattern",
+      date: "10 / 8 / 2024",
+      status: "completed",
+      fileLink: "link",
+    },
+    {
+      id: 2,
+      name: "Design pattern",
+      date: "11 / 8 / 2024",
+      status: "completed",
+      fileLink: "link",
+    },
+    {
+      id: 3,
+      name: "Design pattern",
+      date: "12 / 8 / 2024",
+      status: "completed",
+      fileLink: "link",
+    },
+    {
+      id: 4,
+      name: "Design pattern",
+      date: "13 / 8 / 2024",
+      status: "completed",
+      fileLink: "not yet",
+    },
+    {
+      id: 5,
+      name: "Design pattern",
+      date: "14 / 8 / 2024",
+      status: "completed",
+      fileLink: "not yet",
+    },
+  ];
+
+  const project = [
+    {
+      id: 1,
+      name: "Design pattern",
+      date: "15 / 8 / 2024",
+      status: "completed",
+      fileLink: "link",
+    },
+    {
+      id: 2,
+      name: "Design pattern",
+      date: "16 / 8 / 2024",
+      status: "completed",
+      fileLink: "not yet",
+    },
+    {
+      id: 3,
+      name: "Design pattern",
+      date: "17 / 8 / 2024",
+      status: "completed",
+      fileLink: "Not yet",
+    },
+    {
+      id: 4,
+      name: "Design pattern",
+      date: "18 / 8 / 2024",
+      status: "completed",
+      fileLink: "link",
+    },
+    {
+      id: 5,
+      name: "Design pattern",
+      date: "19 / 8 / 2024",
+      status: "completed",
+      fileLink: "link",
     },
   ];
 
@@ -214,23 +290,23 @@ export default function Profileattribute() {
                 </tr>
               </thead>
               <tbody>
-                {tasks.map((tasks) => (
+                {assignment.map((assignment) => (
                   <tr
-                    key={tasks.id}
+                    key={assignment.id}
                     className="text-center text-white border-b mx-auto"
                   >
-                    <td className="py-2 px-16 text-justify">{tasks.id}</td>
+                    <td className="py-2 px-16 text-justify">{assignment.id}</td>
                     <td className="py-2 px-16 text-justify text-center">
-                      {tasks.name}
+                      {assignment.name}
                     </td>
                     <td className="py-2 px-16 text-justify text-center">
-                      {tasks.date}
+                      {assignment.date}
                     </td>
                     <td className="py-2 px-16 text-justify text-center ">
-                      {tasks.status}
+                      {assignment.status}
                     </td>
                     <td className="py-2 px-16 text-justify text-center ">
-                      {tasks.fileLink}
+                      {assignment.fileLink}
                     </td>
                   </tr>
                 ))}
@@ -257,23 +333,23 @@ export default function Profileattribute() {
                 </tr>
               </thead>
               <tbody>
-                {tasks.map((tasks) => (
+                {project.map((project) => (
                   <tr
-                    key={tasks.id}
+                    key={project.id}
                     className="text-center text-white border-b mx-auto"
                   >
-                    <td className="py-2 px-16 text-justify">{tasks.id}</td>
+                    <td className="py-2 px-16 text-justify">{project.id}</td>
                     <td className="py-2 px-16 text-justify text-center">
-                      {tasks.name}
+                      {project.name}
                     </td>
                     <td className="py-2 px-16 text-justify text-center">
-                      {tasks.date}
+                      {project.date}
                     </td>
                     <td className="py-2 px-16 text-justify text-center ">
-                      {tasks.status}
+                      {project.status}
                     </td>
                     <td className="py-2 px-16 text-justify text-center ">
-                      {tasks.fileLink}
+                      {project.fileLink}
                     </td>
                   </tr>
                 ))}
